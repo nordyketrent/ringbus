@@ -1,0 +1,58 @@
+:root {
+    --bg: rgb(36, 36, 36);
+    --ft: rgb(182, 182, 182);
+    --ft-other: rgb(185, 141, 91);
+}
+
+html {
+    background-color: var(--bg);
+    color: var(--ft);
+    /* font-family: 'IBM Plex Sans Thai', sans-serif; */
+}
+* {
+    margin: 0;
+}
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: var(--ft-other)
+}
+#pic {
+    background-image: url("./PAM5.jpg");
+    border: 1px solid red;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card {
+    background-color: var(--background-color);
+    border-radius: 25px;
+    height: 150px;
+    width:250px;
+    padding: 5%;
+    margin: 30px;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+}
+.wire {
+    stroke: grey;
+    stroke-width:1px;
+    fill: none;
+}
+
+.wire:hover {
+    stroke: hotpink;
+}
+svg {
+    
+}
